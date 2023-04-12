@@ -1,0 +1,154 @@
+// Color variables storage 
+$color-black: #070600 ;
+$color-green: #00FF00 ;
+$color-green-hover: #00bb00;
+$color-white: #f7f7ff;
+$color-white-hover: #a3a3a3;
+$color-cyan: #23B5D3 ; 
+$color-blue: #279AF1 ;
+// Color variables storage
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 50;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// navbar start
+.navBar {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.navBarLogo {
+    color: $color-green;
+}
+.navBarLogo:hover{
+    color: $color-green-hover;
+}
+
+.navBarLogo span{
+    color: $color-white;
+}
+.navBarLogo span:hover{
+    color: $color-white-hover;
+}
+
+.navBarList {
+    display: flex;
+}
+
+.navBarListObj {
+    padding: 0px 15px 0px 15px;
+    color: $color-green;
+}
+
+.navBarListObj:hover{
+    color: $color-green-hover;
+}
+
+.navBarContact{
+    background-color: $color-green;
+    color: $color-black;
+    font-size: 18px;
+    border-radius:14px;
+    padding: 2px 12px 2px 12px;
+}
+
+.navBarContact:hover{
+    background-color: $color-green-hover;
+}
+
+// navbar end 
+
+//indexbody start 
+.indexBody {
+    background-image: url(/images/index.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $color-white;
+}
+
+.cardContainter{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 10px 30px 10px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: inline-block;
+    color:$color-green ;
+    background-color:$color-black ;
+    border: solid 2px $color-green;
+    width: 262px;
+    height: 652px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card h1{
+    color: $color-white;
+}
+
+
+
+// indexbody end 
+
+
+// Footer start 
+.footer{
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerIcons a{
+    font-size: 30px;
+    display:inline-block;
+    color: $color-white;
+    padding: 0px 5px 0px 5px;
+}
+.footerText{
+    display: inline-block;
+    color: $color-white;
+    font-size: 25px;
+    text-align: end;
+}
+
+.footerIcons a:hover{
+    scale: 1.10;
+    color: $color-white-hover;
+    transition-duration: 1s;
+}
+
+.green{
+    color: $color-green;
+}
+
+.green:hover{
+    color: $color-green-hover;
+}
+// Footer end 
+
+//media queries
+
+
+// keyframes 
