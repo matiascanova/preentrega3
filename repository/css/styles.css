@@ -192,6 +192,13 @@ a {
   color: #00bb00;
 }
 
+.nosotrosBody {
+  background-color: #070600;
+  background-image: url(/images/staff.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .footer {
   background-color: #070600;
   display: flex;
@@ -231,4 +238,11 @@ a {
 
 .green:hover {
   color: #00bb00 !important;
+}
+
+.mainText {
+  margin-top: 60px;
+  color: #00FF00;
+  text-align: center;
+  font-weight: bold;
 }/*# sourceMappingURL=styles.css.map */

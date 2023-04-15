@@ -1,3 +1,6 @@
+// Nota: intente añadir mas cosas la barra de navegación, pero no me gusto como quedaba, asi que decidi mantenerlo simple
+
+
 // Variables storage 
 $color-black: #070600;
 $color-green: #00FF00;
@@ -163,16 +166,6 @@ a {
 }
 //comprarBody end
 
-
-
-
-
-//nosotros Start
-
-
-
-
-
 //contacto start
 .contactoBody{
     background-image: url(/images/contactoBody\ .jpg);
@@ -224,8 +217,13 @@ a {
     color: $color-green-hover;
 }
 
-
-
+//Nosotros
+.nosotrosBody{
+    background-color: $color-black;
+    background-image: url(/images/staff.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 
@@ -275,6 +273,12 @@ a {
     color: $color-green-hover!important;
 }
 
+.mainText{
+    margin-top: 60px;
+    color: $color-green;
+    text-align: center;
+    font-weight: bold;
+}
 // Footer end 
 
 // keyframes 
