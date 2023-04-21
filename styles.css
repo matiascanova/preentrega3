@@ -68,7 +68,7 @@ a {
 }
 
 .indexBody {
-  background-image: url(/images/index.jpg);
+  background-image: url(images/index.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #070600;
@@ -98,7 +98,7 @@ a {
 
 .comprarBody {
   background-color: #070600;
-  background-image: url(/images/comprar.jpg);
+  background-image: url(images/comprar.jpg);
   background-position: center;
   background-repeat: repeat;
 }
@@ -143,7 +143,7 @@ a {
 }
 
 .contactoBody {
-  background-image: url(/images/contactoBody\ .jpg);
+  background-image: url(images/contactoBody\ .jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #070600;
@@ -194,7 +194,7 @@ a {
 
 .nosotrosBody {
   background-color: #070600;
-  background-image: url(/images/staff.jpg);
+  background-image: url(images/staff.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
