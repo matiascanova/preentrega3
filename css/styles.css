@@ -1,0 +1,248 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 50;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navBar {
+  padding: 45px 0px 15px 0px;
+  width: 100%;
+  background-color: #070600;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.navBarLogo {
+  color: #00FF00;
+}
+
+.navBarLogo:hover {
+  color: #00bb00;
+}
+
+.navBarLogo span {
+  color: #f7f7ff;
+}
+
+.navBarLogo span:hover {
+  color: #a3a3a3;
+}
+
+.navBarList {
+  display: flex;
+}
+
+.navBarListObj {
+  padding: 0px 15px 0px 15px;
+  color: #00FF00;
+}
+
+.navBarListObj:hover {
+  color: #00bb00;
+}
+
+.navBarContact {
+  background-color: #00FF00;
+  color: #070600;
+  font-size: 18px;
+  border-radius: 14px;
+  padding: 2px 12px 2px 12px;
+}
+
+.navBarContact:hover {
+  background-color: #00bb00;
+}
+
+.indexBody {
+  background-image: url(images/index.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #070600;
+}
+
+.cardContainter {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px 30px 0px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: inline-block;
+  color: #00FF00;
+  background-color: #070600;
+  border: solid 2px #00FF00;
+  width: 262px;
+  height: 652px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card h1 {
+  color: #f7f7ff;
+}
+
+.comprarBody {
+  background-color: #070600;
+  background-image: url(images/comprar.jpg);
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.itemsContainter {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 0px 50px 0px;
+}
+
+.objListing {
+  display: inline-block;
+  color: #00FF00;
+  background-color: #070600;
+  border: solid 4px #00FF00;
+  width: 13rem;
+  height: 380px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+.objListing img {
+  padding: 5px 5px 10px 5px;
+}
+
+.objListingText {
+  padding: 5px 0px 5px 0px;
+}
+
+.objlisting-button {
+  background-color: #00FF00;
+  margin-top: 10px;
+  padding: 1px;
+  color: #070600;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.objlisting-button:hover {
+  background-color: #00bb00;
+}
+
+.contactoBody {
+  background-image: url(images/contactoBody\ .jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #070600;
+}
+
+.form {
+  border: 2px solid #00FF00;
+  width: 300px;
+  height: 500px;
+  margin: 80px auto 250px auto;
+  background-color: #070600;
+}
+
+.form h2 {
+  text-align: center;
+  padding: 40px 0px 15px 0px;
+  color: #00FF00;
+}
+
+.form input {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  background-color: #070600;
+  color: #00FF00;
+  border: 2px solid #00FF00;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.contactoSend {
+  padding: 10px 30px;
+  background-color: #070600;
+  color: #00FF00;
+  margin: 10px;
+  border: 2px solid #00FF00;
+  border-radius: 30px;
+}
+
+.contactoSend:hover {
+  border: 2px solid #00bb00;
+  color: #00bb00;
+}
+
+.nosotrosBody {
+  background-color: #070600;
+  background-image: url(images/staff.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  background-color: #070600;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px 0px 0px 0px;
+}
+
+.footerIcons a {
+  font-size: 30px;
+  display: inline-block;
+  color: #f7f7ff;
+  padding: 0px 5px 0px 5px;
+}
+
+.footerText {
+  display: inline-block;
+  color: #f7f7ff;
+  font-size: 25px;
+  text-align: end;
+}
+
+.footerIcons a:hover {
+  scale: 1.1;
+  color: #a3a3a3;
+  transition-duration: 1s;
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+}
+
+.green {
+  color: #00FF00 !important;
+}
+
+.green:hover {
+  color: #00bb00 !important;
+}
+
+.mainText {
+  margin-top: 60px;
+  color: #00FF00;
+  text-align: center;
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */
